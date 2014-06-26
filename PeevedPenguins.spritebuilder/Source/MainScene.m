@@ -11,7 +11,7 @@
 @implementation MainScene
 
 -(void)play{
-    
+    [CCBReader loadAsScene:@"GamePlay"];
 }
 
 @end
