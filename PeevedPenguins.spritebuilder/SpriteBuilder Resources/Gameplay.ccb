@@ -243,6 +243,71 @@
 						<string>_catapultArm</string>
 						<key>memberVarAssignmentType</key>
 						<integer>1</integer>
+						<key>physicsBody</key>
+						<dict>
+							<key>affectedByGravity</key>
+							<true/>
+							<key>allowsRotation</key>
+							<true/>
+							<key>bodyShape</key>
+							<integer>0</integer>
+							<key>collisionCategories</key>
+							<array/>
+							<key>collisionMask</key>
+							<array/>
+							<key>collisionType</key>
+							<string></string>
+							<key>cornerRadius</key>
+							<real>0.0</real>
+							<key>density</key>
+							<real>1</real>
+							<key>dynamic</key>
+							<false/>
+							<key>elasticity</key>
+							<real>0.30000001192092896</real>
+							<key>friction</key>
+							<real>0.30000001192092896</real>
+							<key>points</key>
+							<array>
+								<array>
+									<real>0.0</real>
+									<real>0.0</real>
+								</array>
+								<array>
+									<real>0.0</real>
+									<real>177</real>
+								</array>
+								<array>
+									<real>42</real>
+									<real>177</real>
+								</array>
+								<array>
+									<real>42</real>
+									<real>0.0</real>
+								</array>
+							</array>
+							<key>polygons</key>
+							<array>
+								<array>
+									<array>
+										<real>42</real>
+										<real>0.0</real>
+									</array>
+									<array>
+										<real>42</real>
+										<real>177</real>
+									</array>
+									<array>
+										<real>0.0</real>
+										<real>177</real>
+									</array>
+									<array>
+										<real>0.0</real>
+										<real>0.0</real>
+									</array>
+								</array>
+							</array>
+						</dict>
 						<key>properties</key>
 						<array>
 							<dict>
@@ -326,6 +391,8 @@
 								</array>
 							</dict>
 						</array>
+						<key>selected</key>
+						<true/>
 					</dict>
 					<dict>
 						<key>UUID</key>
@@ -514,8 +581,6 @@
 								</array>
 							</dict>
 						</array>
-						<key>selected</key>
-						<true/>
 					</dict>
 					<dict>
 						<key>UUID</key>
@@ -641,8 +706,8 @@
 									<real>0.0</real>
 								</array>
 								<array>
-									<real>1.3515472412109375</real>
-									<real>40.5703125</real>
+									<real>0.71708416938781738</real>
+									<real>43.304256439208984</real>
 								</array>
 								<array>
 									<real>960.76165771484375</real>
@@ -665,8 +730,8 @@
 										<real>49.51953125</real>
 									</array>
 									<array>
-										<real>1.3515472412109375</real>
-										<real>40.5703125</real>
+										<real>0.71708416938781738</real>
+										<real>43.304256439208984</real>
 									</array>
 									<array>
 										<real>0.0</real>
