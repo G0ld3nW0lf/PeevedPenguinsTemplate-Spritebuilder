@@ -10,11 +10,18 @@
 
 @implementation Gameplay{
     CCPhysicsNode *_physicsNode;
+    CCNode *_levelNode;
     CCNode *_catapultArm;
 }
 
 -(void)didLoadFromCCB{
+    
+    
+    CCScene *level = [CCBReader loadAsScene:@"Levels/Level1"];
+    [_levelNode addChild:level];
+    
     self.userInteractionEnabled = YES;
+    
 }
 
 -(void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event{

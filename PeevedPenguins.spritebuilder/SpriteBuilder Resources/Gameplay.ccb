@@ -270,82 +270,40 @@
 							<key>points</key>
 							<array>
 								<array>
-									<real>1.112579345703125</real>
-									<real>12.506762504577637</real>
+									<real>0.0</real>
+									<real>0.0</real>
 								</array>
 								<array>
-									<real>0.28870195150375366</real>
-									<real>139.10670471191406</real>
+									<real>0.0</real>
+									<real>177</real>
 								</array>
 								<array>
-									<real>28.390342712402344</real>
-									<real>176.24789428710938</real>
+									<real>42</real>
+									<real>177</real>
 								</array>
 								<array>
-									<real>40.461044311523438</real>
-									<real>169.45668029785156</real>
-								</array>
-								<array>
-									<real>39.747531890869141</real>
-									<real>115.701904296875</real>
-								</array>
-								<array>
-									<real>31.241830825805664</real>
-									<real>104.68863677978516</real>
-								</array>
-								<array>
-									<real>18.257421493530273</real>
-									<real>108.11248016357422</real>
-								</array>
-								<array>
-									<real>17.171772003173828</real>
-									<real>13.420470237731934</real>
+									<real>42</real>
+									<real>0.0</real>
 								</array>
 							</array>
 							<key>polygons</key>
 							<array>
 								<array>
 									<array>
-										<real>0.28870195150375366</real>
-										<real>139.10670471191406</real>
+										<real>42</real>
+										<real>0.0</real>
 									</array>
 									<array>
-										<real>1.112579345703125</real>
-										<real>12.506762504577637</real>
+										<real>42</real>
+										<real>177</real>
 									</array>
 									<array>
-										<real>17.171772003173828</real>
-										<real>13.420470237731934</real>
+										<real>0.0</real>
+										<real>177</real>
 									</array>
 									<array>
-										<real>18.257421493530273</real>
-										<real>108.11248016357422</real>
-									</array>
-								</array>
-								<array>
-									<array>
-										<real>18.257421493530273</real>
-										<real>108.11248016357422</real>
-									</array>
-									<array>
-										<real>31.241830825805664</real>
-										<real>104.68863677978516</real>
-									</array>
-									<array>
-										<real>39.747531890869141</real>
-										<real>115.701904296875</real>
-									</array>
-									<array>
-										<real>40.461044311523438</real>
-										<real>169.45668029785156</real>
-									</array>
-									<array>
-										<real>28.390342712402344</real>
-										<real>176.24789428710938</real>
-									</array>
-									<array>
-										<real>0.28870195150375366</real>
-										<real>139.10670471191406</real>
+										<real>0.0</real>
+										<real>0.0</real>
 									</array>
 								</array>
 							</array>
@@ -367,8 +325,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>214</real>
-									<real>102</real>
+									<real>212.82035827636719</real>
+									<real>97.281532287597656</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -434,6 +392,8 @@
 							</dict>
 						</array>
 						<key>selected</key>
+						<true/>
+						<key>seqExpanded</key>
 						<true/>
 					</dict>
 					<dict>
@@ -987,8 +947,8 @@
 				<string>Size</string>
 				<key>value</key>
 				<array>
-					<real>568</real>
-					<real>384</real>
+					<real>960</real>
+					<real>320</real>
 					<integer>0</integer>
 					<integer>0</integer>
 				</array>
