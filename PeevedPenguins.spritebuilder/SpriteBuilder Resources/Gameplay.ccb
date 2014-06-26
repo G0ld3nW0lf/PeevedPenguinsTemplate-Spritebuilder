@@ -984,7 +984,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
+									<string>retry</string>
 									<integer>1</integer>
 								</array>
 							</dict>
