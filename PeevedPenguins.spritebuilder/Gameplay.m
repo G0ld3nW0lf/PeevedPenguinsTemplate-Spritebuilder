@@ -23,7 +23,7 @@
 
 -(void)launchPenguin{
     CCNode *penguin = [CCBReader load:@"Penguin"];
-    penguin.position = ccpAdd(_catapultArm.position, ccp(42,177));
+    penguin.position = ccpAdd(_catapultArm.position, ccp(42,175));
     
     [_physicsNode addChild:penguin];
     
