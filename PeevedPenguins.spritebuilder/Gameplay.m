@@ -13,6 +13,7 @@
     CCNode *_levelNode;
     CCNode *_catapultArm;
     CCNode *_contentNode;
+    CCNode *_
 }
 
 -(void)didLoadFromCCB{
