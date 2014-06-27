@@ -23,6 +23,8 @@
     
     self.userInteractionEnabled = YES;
     
+    _physicsNode.debugDraw = TRUE;
+    
 }
 
 -(void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event{
