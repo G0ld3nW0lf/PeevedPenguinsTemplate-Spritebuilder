@@ -68,14 +68,13 @@
 {
     // when touches end, meaning the user releases their finger, release the catapult
     [self releaseCatapult];
-    _mouseJointNode.position = ccp(0,0);
 }
+
 -(void) touchCancelled:(UITouch *)touch withEvent:(UIEvent *)event
 {
     // when touches are cancelled, meaning the user drags their finger off the screen or onto something else, release the catapult
     [self releaseCatapult];
 }
-
 
 -(void)launchPenguin{
     CCNode *penguin = [CCBReader load:@"Penguin"];
