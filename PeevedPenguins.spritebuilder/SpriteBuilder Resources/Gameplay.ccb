@@ -55,8 +55,8 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>224.00003051757812</real>
-						<real>98.27410888671875</real>
+						<real>222.87904357910156</real>
+						<real>102.75804138183594</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -93,8 +93,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>83.500030517578125</real>
-						<real>59.27410888671875</real>
+						<real>82.379043579101562</real>
+						<real>63.758041381835938</real>
 					</array>
 				</dict>
 				<dict>
@@ -1190,7 +1190,7 @@
 									<key>collisionType</key>
 									<string></string>
 									<key>cornerRadius</key>
-									<real>16</real>
+									<real>0.0</real>
 									<key>density</key>
 									<real>1</real>
 									<key>dynamic</key>
@@ -1271,6 +1271,8 @@
 										</array>
 									</dict>
 								</array>
+								<key>selected</key>
+								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
@@ -1383,8 +1385,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 						</array>
 						<key>customClass</key>
