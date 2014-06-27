@@ -164,8 +164,8 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>234.78909301757812</real>
-						<real>302.15625</real>
+						<real>233.13534545898438</real>
+						<real>305.65274047851562</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -202,8 +202,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>2.7890625</real>
-						<real>1.15625</real>
+						<real>1.1353200674057007</real>
+						<real>4.6527376174926758</real>
 					</array>
 				</dict>
 				<dict>
@@ -246,7 +246,7 @@
 					<string>EnabledFloat</string>
 					<key>value</key>
 					<array>
-						<real>50</real>
+						<real>81.275222778320312</real>
 						<true/>
 					</array>
 				</dict>
@@ -1271,8 +1271,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
@@ -1296,7 +1294,7 @@
 									<key>allowsRotation</key>
 									<true/>
 									<key>bodyShape</key>
-									<integer>1</integer>
+									<integer>0</integer>
 									<key>collisionCategories</key>
 									<array/>
 									<key>collisionMask</key>
@@ -1319,9 +1317,40 @@
 											<real>0.0</real>
 											<real>0.0</real>
 										</array>
+										<array>
+											<real>0.0</real>
+											<real>32</real>
+										</array>
+										<array>
+											<real>32</real>
+											<real>32</real>
+										</array>
+										<array>
+											<real>32</real>
+											<real>0.0</real>
+										</array>
 									</array>
 									<key>polygons</key>
-									<array/>
+									<array>
+										<array>
+											<array>
+												<real>32</real>
+												<real>0.0</real>
+											</array>
+											<array>
+												<real>32</real>
+												<real>32</real>
+											</array>
+											<array>
+												<real>0.0</real>
+												<real>32</real>
+											</array>
+											<array>
+												<real>0.0</real>
+												<real>0.0</real>
+											</array>
+										</array>
+									</array>
 								</dict>
 								<key>properties</key>
 								<array>
@@ -1385,6 +1414,8 @@
 										</array>
 									</dict>
 								</array>
+								<key>selected</key>
+								<true/>
 							</dict>
 						</array>
 						<key>customClass</key>
