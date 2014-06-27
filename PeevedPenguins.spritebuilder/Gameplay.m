@@ -33,7 +33,7 @@
 
 -(void) touchBegan:(UITouch *)touch withEvent:(UIEvent *)event
 {
-    _mouseJoint = [[CCPhysicsJoint alloc] init];
+    _mouseJointNode = [[CCNode alloc] init];
     CGPoint touchLocation = [touch locationInNode:_contentNode];
     
     // start catapult dragging when a touch inside of the catapult arm occurs
