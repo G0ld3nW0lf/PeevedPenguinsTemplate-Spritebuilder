@@ -60,6 +60,7 @@
         // releases the joint and lets the catapult snap back
         [_mouseJoint invalidate];
         _mouseJoint = nil;
+        _mouseJointNode.position = [_catapultArm position ];
     }
 }
 
