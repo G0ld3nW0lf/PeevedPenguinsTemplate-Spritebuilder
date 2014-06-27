@@ -26,7 +26,7 @@
     
     self.userInteractionEnabled = YES;
     
-    _physicsNode.debugDraw = TRUE;
+    //_physicsNode.debugDraw = TRUE;
     
     _pullbackNode.physicsBody.collisionMask = @[];
 }
