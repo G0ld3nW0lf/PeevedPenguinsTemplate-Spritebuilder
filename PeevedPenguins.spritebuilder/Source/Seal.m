@@ -14,8 +14,5 @@
     self.physicsBody.collisionType = @"seal";
 }
 
-- (void)sealRemoved:(CCNode *)seal {
-    [seal removeFromParent];
-}
 
 @end

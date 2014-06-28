@@ -136,4 +136,9 @@
     }
 }
 
+
+- (void)sealRemoved:(CCNode *)seal {
+    [seal removeFromParent];
+}
+
 @end
