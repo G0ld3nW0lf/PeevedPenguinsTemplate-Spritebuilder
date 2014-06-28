@@ -30,6 +30,8 @@
     
     _physicsNode.debugDraw = TRUE;
     
+    _physicsNode.collisionDelegate = self;
+    
     _pullbackNode.physicsBody.collisionMask = @[];
     _mouseJointNode.physicsBody.collisionMask = @[];
 }
@@ -120,6 +122,10 @@
 
 -(void)retry{
     [[CCDirector sharedDirector] replaceScene: [CCBReader loadAsScene:@"Gameplay"]];
+}
+
+-(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB{
+    CCLOG(@"Somthing collided with a Seal");
 }
 
 @end
