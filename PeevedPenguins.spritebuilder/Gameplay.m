@@ -161,6 +161,8 @@ static const float MIN_SPEED = 10.0f;
     
     self.position = ccp(0, 0);
     CCActionFollow *follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
+    _currentPenguin.launched = true;
+    
     [_contentNode runAction:follow];
 }
 
