@@ -1019,8 +1019,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
@@ -1420,7 +1418,7 @@
 									<key>density</key>
 									<real>1</real>
 									<key>dynamic</key>
-									<true/>
+									<false/>
 									<key>elasticity</key>
 									<real>0.30000001192092896</real>
 									<key>friction</key>
@@ -1698,7 +1696,7 @@
 									<key>density</key>
 									<real>1</real>
 									<key>dynamic</key>
-									<true/>
+									<false/>
 									<key>elasticity</key>
 									<real>0.30000001192092896</real>
 									<key>friction</key>
@@ -1852,7 +1850,7 @@
 									<key>density</key>
 									<real>1</real>
 									<key>dynamic</key>
-									<true/>
+									<false/>
 									<key>elasticity</key>
 									<real>0.30000001192092896</real>
 									<key>friction</key>
@@ -2006,7 +2004,7 @@
 									<key>density</key>
 									<real>1</real>
 									<key>dynamic</key>
-									<true/>
+									<false/>
 									<key>elasticity</key>
 									<real>0.30000001192092896</real>
 									<key>friction</key>
@@ -2160,7 +2158,7 @@
 									<key>density</key>
 									<real>1</real>
 									<key>dynamic</key>
-									<true/>
+									<false/>
 									<key>elasticity</key>
 									<real>0.30000001192092896</real>
 									<key>friction</key>
@@ -2314,7 +2312,7 @@
 									<key>density</key>
 									<real>1</real>
 									<key>dynamic</key>
-									<true/>
+									<false/>
 									<key>elasticity</key>
 									<real>0.30000001192092896</real>
 									<key>friction</key>
@@ -2691,9 +2689,9 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>64.44659423828125</real>
-							<real>274.850341796875</real>
-							<integer>0</integer>
+							<real>10</real>
+							<real>10</real>
+							<integer>1</integer>
 							<integer>0</integer>
 							<integer>0</integer>
 						</array>
@@ -2705,8 +2703,8 @@
 						<string>Point</string>
 						<key>value</key>
 						<array>
-							<real>0.5</real>
-							<real>0.5</real>
+							<real>0.0</real>
+							<real>1</real>
 						</array>
 					</dict>
 					<dict>
