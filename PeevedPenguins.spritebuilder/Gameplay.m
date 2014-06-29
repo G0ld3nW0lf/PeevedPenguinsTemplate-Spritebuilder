@@ -121,6 +121,8 @@ static const float MIN_SPEED = 10.0f;
         _followPenguin = [CCActionFollow actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
         [_contentNode runAction:_followPenguin];
         
+        _currentPenguin.launched = TRUE;
+        
         /*
         // follow the flying penguin
         CCActionFollow *follow = [CCActionFollow actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
@@ -161,7 +163,7 @@ static const float MIN_SPEED = 10.0f;
     
     self.position = ccp(0, 0);
     CCActionFollow *follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
-    _currentPenguin.launched = true;
+    
     
     [_contentNode runAction:follow];
 }
