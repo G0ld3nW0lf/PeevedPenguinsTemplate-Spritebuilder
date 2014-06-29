@@ -9,6 +9,8 @@
 #import "Gameplay.h"
 #import "CCPhysics+ObjectiveChipmunk.h"
 
+static const float MIN_SPEED = 5.f;
+
 @implementation Gameplay{
     CCNode *_pullbackNode;
     CCPhysicsNode *_physicsNode;
@@ -19,6 +21,30 @@
     CCPhysicsJoint *_mouseJoint;
     CCNode *_currentPenguin;
     CCPhysicsJoint *_penguinCatapultJoint;
+    CCAction *_followPenguin;
+}
+
+- (void)update:(CCTime)delta
+{
+    // if speed is below minimum speed, assume this attempt is over
+    if (ccpLength(_currentPenguin.physicsBody.velocity) < MIN_SPEED){
+        [self nextAttempt];
+        return;
+    }
+    
+    int xMin = _currentPenguin.boundingBox.origin.x;
+    
+    if (xMin < self.boundingBox.origin.x) {
+        [self nextAttempt];
+        return;
+    }
+    
+    int xMax = xMin + _currentPenguin.boundingBox.size.width;
+    
+    if (xMax > (self.boundingBox.origin.x + self.boundingBox.size.width)) {
+        [self nextAttempt];
+        return;
+    }
 }
 
 -(void)didLoadFromCCB{
@@ -89,9 +115,23 @@
         _currentPenguin.physicsBody.allowsRotation = TRUE;
         
         // follow the flying penguin
+        _followPenguin = [CCActionFollow actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
+        [_contentNode runAction:_followPenguin];
+        
+        /*
+        // follow the flying penguin
         CCActionFollow *follow = [CCActionFollow actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
         [_contentNode runAction:follow];
+         */
     }
+}
+
+- (void)nextAttempt {
+    _currentPenguin = nil;
+    [_contentNode stopAction:_followPenguin];
+    
+    CCActionMoveTo *actionMoveTo = [CCActionMoveTo actionWithDuration:1.f position:ccp(0, 0)];
+    [_contentNode runAction:actionMoveTo];
 }
 
 -(void) touchEnded:(UITouch *)touch withEvent:(UIEvent *)event
