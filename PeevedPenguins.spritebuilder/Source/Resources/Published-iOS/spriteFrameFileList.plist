@@ -9,8 +9,8 @@
 	</dict>
 	<key>spriteFrameFiles</key>
 	<array>
-		<string>PeevedPenguinsIPadAssets.plist</string>
 		<string>animation.plist</string>
+		<string>PeevedPenguinsAssets.plist</string>
 	</array>
 </dict>
 </plist>
