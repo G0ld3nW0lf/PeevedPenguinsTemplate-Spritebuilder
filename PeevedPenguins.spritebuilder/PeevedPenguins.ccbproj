@@ -80,8 +80,10 @@
 			<key>previewFolderHidden</key>
 			<true/>
 		</dict>
-		<key>PeevedPenguinsAssets</key>
+		<key>PeevedPenguinsIPadAssets</key>
 		<dict>
+			<key>isDirty</key>
+			<true/>
 			<key>isSmartSpriteSheet</key>
 			<true/>
 		</dict>
@@ -89,8 +91,6 @@
 		<dict/>
 		<key>animation</key>
 		<dict>
-			<key>isDirty</key>
-			<true/>
 			<key>isSmartSpriteSheet</key>
 			<true/>
 		</dict>
